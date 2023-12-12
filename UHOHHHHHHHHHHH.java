@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 public class UHOHHHHHHHHHHH {
-	public static void s(String[] args) throws InterruptedException {
+	public static void main(String[] args) throws InterruptedException {
 		int randomNum = (int) (Math.random() * 1000000001);
 		int ranomNum = (int) (Math.random() * 1000000001);
 		int randmNm = (int) (Math.random() * 1000000001);
