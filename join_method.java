@@ -1,4 +1,4 @@
-public class netjstech{
+public class netjstech {
 
  public static void main(String[] args) {
 	  String str1 = "An";
