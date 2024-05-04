@@ -5,14 +5,14 @@ public class StringComparison {
 	  String str1 = new String("This");
 	  System.out.println("String for comparison -- " + str.substring(0, 4));
 	  // Should be true	
-	  System.out.println(str.substring(0, 4).equals("This"));
+	  System.out.println("This".equals(str.substring(0, 4)));
 	  // will be false, equals is case sensitive
-	  System.out.println(str.substring(0, 4).equals("this"));
+	  System.out.println("this".equals(str.substring(0, 4)));
 	  
 	  // returns true, case is ignored
-	  System.out.println(str.substring(0, 4).equalsIgnoreCase("this"));
+	  System.out.println("this".equalsIgnoreCase(str.substring(0, 4)));
 	  // returns true
-	  System.out.println(str1.equalsIgnoreCase("this"));
+	  System.out.println("this".equalsIgnoreCase(str1));
 	 }
 	}
 
